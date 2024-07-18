@@ -1,0 +1,33 @@
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_setup.py:_flush():68] Configure stats pid to 314566
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_setup.py:_flush():68] Loading settings from /home/ee22btech11025/.config/wandb/settings
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_setup.py:_flush():68] Loading settings from /home/ee22btech11025/val/t-prime/baseline_models/wandb/settings
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'baseline_models/TPrime_torch_train.py', 'program': '/home/ee22btech11025/val/t-prime/baseline_models/TPrime_torch_train.py'}
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_init.py:_log_setup():492] Logging user logs to /home/ee22btech11025/val/t-prime/baseline_models/wandb/run-20240704_062430-t5ujd8c2/logs/debug.log
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_init.py:_log_setup():493] Logging internal logs to /home/ee22btech11025/val/t-prime/baseline_models/wandb/run-20240704_062430-t5ujd8c2/logs/debug-internal.log
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_init.py:init():532] calling init triggers
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'Dataset': '1_1', 'Dataset_Ratio': 1.0, 'Architecture': 'AMCNet', 'Wireless channel': 'random', 'Snr (dbs)': ['range'], 'Learning rate': 0.001, 'Batch size': 512, 'Slice length': 128}
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_init.py:init():588] starting backend
+2024-07-04 06:24:30,232 INFO    MainThread:314566 [wandb_init.py:init():592] setting up manager
+2024-07-04 06:24:30,234 INFO    MainThread:314566 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-04 06:24:30,235 INFO    MainThread:314566 [wandb_init.py:init():599] backend started and connected
+2024-07-04 06:24:30,238 INFO    MainThread:314566 [wandb_init.py:init():687] updated telemetry
+2024-07-04 06:24:30,390 INFO    MainThread:314566 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2024-07-04 06:24:31,249 INFO    MainThread:314566 [wandb_run.py:_on_init():2134] communicating current version
+2024-07-04 06:24:31,383 INFO    MainThread:314566 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-04 06:24:31,383 INFO    MainThread:314566 [wandb_init.py:init():775] starting run threads in backend
+2024-07-04 06:24:32,593 INFO    MainThread:314566 [wandb_run.py:_console_start():2114] atexit reg
+2024-07-04 06:24:32,593 INFO    MainThread:314566 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-07-04 06:24:32,594 INFO    MainThread:314566 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-07-04 06:24:32,594 INFO    MainThread:314566 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-07-04 06:24:32,594 INFO    MainThread:314566 [wandb_init.py:init():817] run started, returning control to user process
+2024-07-04 06:24:34,509 INFO    MainThread:314566 [wandb_watch.py:watch():51] Watching
+2024-07-06 00:00:48,860 INFO    MainThread:314566 [wandb_run.py:_finish():1854] finishing run jayvik2003/RF_Baseline_CNN1D/t5ujd8c2
+2024-07-06 00:00:48,860 INFO    MainThread:314566 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-07-06 00:00:48,860 INFO    MainThread:314566 [wandb_run.py:_restore():2066] restore
+2024-07-06 00:00:48,860 INFO    MainThread:314566 [wandb_run.py:_restore():2072] restore done
+2024-07-06 00:01:02,089 INFO    MainThread:314566 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2024-07-06 00:01:02,091 INFO    MainThread:314566 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2024-07-06 00:01:02,094 INFO    MainThread:314566 [wandb_run.py:_footer_sync_info():3398] logging synced files

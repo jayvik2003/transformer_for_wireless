@@ -1,0 +1,174 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-glibc2.35",
+    "python": "3.9.12",
+    "heartbeatAt": "2024-07-14T20:42:30.252547",
+    "startedAt": "2024-07-14T20:42:28.911653",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model=baseline_cnn1d",
+        "--channel=random",
+        "--snr_db=range",
+        "--cp_path=./results_slice512",
+        "--postfix=all20MHz",
+        "--raw_path=../data/DATASET1_1",
+        "--slicelen=512",
+        "--normalize"
+    ],
+    "state": "running",
+    "program": "/home/ee22btech11025/val/t-prime/baseline_models/TPrime_torch_train.py",
+    "codePath": "baseline_models/TPrime_torch_train.py",
+    "git": {
+        "remote": "https://github.com/genesys-neu/t-prime.git",
+        "commit": "0446eb5e52857b88e6716f65205ee7c65f1a0901"
+    },
+    "email": null,
+    "root": "/home/ee22btech11025/val/t-prime",
+    "host": "servernode2",
+    "username": "ee22btech11025",
+    "executable": "/home/ee22btech11025/anaconda3/envs/t-prime/bin/python3",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 1351.3648333333333,
+        "min": 800.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1081.47,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2050.024,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2212.077,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2326.637,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1580.058,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1537.584,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1256.143,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1474.324,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1272.595,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1977.502,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1919.994,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1860.634,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1121.268,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1115.57,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1199.101,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2484.408,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2001.642,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1262.066,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1079.566,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1520.638,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1709.497,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1746.845,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1501.534,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 1964.849,
+            "min": 800.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "total": 913.3173141479492,
+        "used": 246.80755996704102
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 125.41542053222656
+    }
+}

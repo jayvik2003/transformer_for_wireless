@@ -1,0 +1,173 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-glibc2.35",
+    "python": "3.9.12",
+    "heartbeatAt": "2024-07-04T06:24:31.539461",
+    "startedAt": "2024-07-04T06:24:30.230442",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model=AMCNet",
+        "--channel=random",
+        "--snr_db=range",
+        "--cp_path=./results_AMCNet",
+        "--postfix=all20MHz",
+        "--raw_path=../data/DATASET1_1",
+        "--slicelen=128"
+    ],
+    "state": "running",
+    "program": "/home/ee22btech11025/val/t-prime/baseline_models/TPrime_torch_train.py",
+    "codePath": "baseline_models/TPrime_torch_train.py",
+    "git": {
+        "remote": "https://github.com/genesys-neu/t-prime.git",
+        "commit": "0446eb5e52857b88e6716f65205ee7c65f1a0901"
+    },
+    "email": null,
+    "root": "/home/ee22btech11025/val/t-prime",
+    "host": "servernode2",
+    "username": "ee22btech11025",
+    "executable": "/home/ee22btech11025/anaconda3/envs/t-prime/bin/python3",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2424.4972083333337,
+        "min": 800.0,
+        "max": 3300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2418.224,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2310.047,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2700.0,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2699.999,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2700.0,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2594.01,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2174.141,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2562.252,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2700.0,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2322.975,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2343.799,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2422.055,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2536.301,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2330.516,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2700.0,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2700.0,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2695.241,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2700.002,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2632.781,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2697.995,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2699.998,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2633.374,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2429.271,
+            "min": 800.0,
+            "max": 3300.0
+        },
+        {
+            "current": 2605.362,
+            "min": 800.0,
+            "max": 3300.0
+        }
+    ],
+    "disk": {
+        "total": 913.3173141479492,
+        "used": 246.59081649780273
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 125.41542053222656
+    }
+}

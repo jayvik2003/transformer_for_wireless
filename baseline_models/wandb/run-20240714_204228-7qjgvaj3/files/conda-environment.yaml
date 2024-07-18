@@ -1,0 +1,4 @@
+name: t-prime
+channels:
+  - defaults
+prefix: /home/ee22btech11025/anaconda3/envs/t-prime/envs/t-prime
